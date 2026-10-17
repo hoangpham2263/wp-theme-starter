@@ -1,0 +1,34 @@
+.toastify-custom {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+@media (max-width: 768px) {
+  .toastify-custom {
+    width: 100% !important;
+    font-size: 12px !important;
+  }
+}
+
+.toastify-custom::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  transform-origin: left;
+  animation: progress var(--toastify-duration, 3s) linear forwards;
+}
+
+@keyframes progress {
+  0% {
+    transform: scaleX(1);
+  }
+  100% {
+    transform: scaleX(0);
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "henrypham",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "watch": "vite build --watch",
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "author": "henry",
+  "license": "ISC",
+  "description": "Boilerplate WordPress theme with Tailwind CSS.",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0"
+  }
+}

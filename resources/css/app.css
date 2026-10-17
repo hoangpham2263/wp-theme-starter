@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+@import "./custom.css";
+@import "./toastify.css";
+
+@theme {
+  /* Breakpoints */
+  --breakpoint-*: initial;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1537px;
+
+  /* Colors */
+  /* Palatinate blue */
+  --color-primary: #273BE2;
+  --color-secondary: #006AD7;
+
+  --color-primary-text: #6F6875;
+  --color-secondary-text: #5D5866;
+
+  --color-primary-bg: #8d90a6;
+
+  /* Font Family */
+  --font-sans: "Inter Tight", sans-serif;
+
+  /* Box Shadows */
+  --shadow-default: 4px 4px 36px 0px #00000026;
+}
+
+@layer base {
+  html {
+    line-height: 1.2;
+    /* background-color: green !important; */
+  }
+
+  body {
+    font-family: var(--font-sans);
+  }
+}
+
+@utility container {
+  @variant sm {
+    max-width: 640px;
+  }
+
+  @variant md {
+    max-width: 768px;
+  }
+
+  @variant lg {
+    max-width: 1000px;
+  }
+
+  @variant xl {
+    max-width: 1280px;
+  }
+
+  @variant 2xl {
+    max-width: 1600px;
+  }
+}

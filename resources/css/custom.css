@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@layer components {
+  /* Thêm các component tùy chỉnh ở đây */
+}
+
+@layer utilities {
+  /* Thêm các utility tùy chỉnh ở đây */
+}
+
+* {
+  /* touch-action: manipulation; */
+}
+/* Test comment */
+/* Test watch mode */
+
+.rank-math-breadcrumb a,
+.rank-math-breadcrumb span {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.rank-math-breadcrumb span {
+  color: var(--color-primary);
+}
+
+.rank-math-breadcrumb a:hover {
+  color: var(--color-primary);
+}
