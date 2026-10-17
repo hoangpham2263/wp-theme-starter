@@ -1,0 +1,434 @@
+{
+ "title": "WP Theme Starter",
+ "description": "Theme khởi đầu cho custom theme WordPress (Vite, template-parts, WooCommerce)",
+ "repo": "hoangpham2263/wp-theme-starter",
+ "files": [
+  {
+   "path": "README.md",
+   "group": "",
+   "title": "Giới thiệu (README)"
+  },
+  {
+   "path": "404.php",
+   "group": ""
+  },
+  {
+   "path": "archive-blog.php",
+   "group": ""
+  },
+  {
+   "path": "archive.php",
+   "group": ""
+  },
+  {
+   "path": "demo.php",
+   "group": ""
+  },
+  {
+   "path": "footer.php",
+   "group": ""
+  },
+  {
+   "path": "functions.php",
+   "group": ""
+  },
+  {
+   "path": "header-home.php",
+   "group": ""
+  },
+  {
+   "path": "header.php",
+   "group": ""
+  },
+  {
+   "path": "index.php",
+   "group": ""
+  },
+  {
+   "path": "package.json",
+   "group": ""
+  },
+  {
+   "path": "single.php",
+   "group": ""
+  },
+  {
+   "path": "style.css",
+   "group": ""
+  },
+  {
+   "path": "z.txt",
+   "group": ""
+  },
+  {
+   "path": "css/app.css",
+   "group": "css",
+   "title": "app.css"
+  },
+  {
+   "path": "inc/common/func-standard.php",
+   "group": "inc",
+   "title": "common/func-standard.php"
+  },
+  {
+   "path": "inc/core/assets.php",
+   "group": "inc",
+   "title": "core/assets.php"
+  },
+  {
+   "path": "inc/core/custom-post-types.php",
+   "group": "inc",
+   "title": "core/custom-post-types.php"
+  },
+  {
+   "path": "inc/core/helpers.php",
+   "group": "inc",
+   "title": "core/helpers.php"
+  },
+  {
+   "path": "inc/core/setup.php",
+   "group": "inc",
+   "title": "core/setup.php"
+  },
+  {
+   "path": "inc/fields/global-footer.php",
+   "group": "inc",
+   "title": "fields/global-footer.php"
+  },
+  {
+   "path": "inc/fields/global-header.php",
+   "group": "inc",
+   "title": "fields/global-header.php"
+  },
+  {
+   "path": "inc/fields/global-pre.php",
+   "group": "inc",
+   "title": "fields/global-pre.php"
+  },
+  {
+   "path": "inc/fields/global-settings.php",
+   "group": "inc",
+   "title": "fields/global-settings.php"
+  },
+  {
+   "path": "inc/fields/home.php",
+   "group": "inc",
+   "title": "fields/home.php"
+  },
+  {
+   "path": "inc/shortcodes/sc_polylang.php",
+   "group": "inc",
+   "title": "shortcodes/sc_polylang.php"
+  },
+  {
+   "path": "inc/shortcodes/sc_search-global-icon.php",
+   "group": "inc",
+   "title": "shortcodes/sc_search-global-icon.php"
+  },
+  {
+   "path": "resources/css/app.css",
+   "group": "resources",
+   "title": "css/app.css"
+  },
+  {
+   "path": "resources/css/custom.css",
+   "group": "resources",
+   "title": "css/custom.css"
+  },
+  {
+   "path": "resources/css/toastify.css",
+   "group": "resources",
+   "title": "css/toastify.css"
+  },
+  {
+   "path": "resources/js/app.js",
+   "group": "resources",
+   "title": "js/app.js"
+  },
+  {
+   "path": "resources/js/toastify.js",
+   "group": "resources",
+   "title": "js/toastify.js"
+  },
+  {
+   "path": "template-components/button-add-to-cart.php",
+   "group": "template-components",
+   "title": "button-add-to-cart.php"
+  },
+  {
+   "path": "template-components/button-see-reality.php",
+   "group": "template-components",
+   "title": "button-see-reality.php"
+  },
+  {
+   "path": "template-components/footer-button-scroll-to-top.php",
+   "group": "template-components",
+   "title": "footer-button-scroll-to-top.php"
+  },
+  {
+   "path": "template-components/footer-button-social-mobile.php",
+   "group": "template-components",
+   "title": "footer-button-social-mobile.php"
+  },
+  {
+   "path": "template-components/footer-button-social.php",
+   "group": "template-components",
+   "title": "footer-button-social.php"
+  },
+  {
+   "path": "template-components/header-button-circle-change-language-mobile.php",
+   "group": "template-components",
+   "title": "header-button-circle-change-language-mobile.php"
+  },
+  {
+   "path": "template-components/header-button-circle-change-language.php",
+   "group": "template-components",
+   "title": "header-button-circle-change-language.php"
+  },
+  {
+   "path": "template-components/header-button-circle-facebook-mobile.php",
+   "group": "template-components",
+   "title": "header-button-circle-facebook-mobile.php"
+  },
+  {
+   "path": "template-components/header-button-circle-facebook.php",
+   "group": "template-components",
+   "title": "header-button-circle-facebook.php"
+  },
+  {
+   "path": "template-components/header-button-circle-youtube-mobile.php",
+   "group": "template-components",
+   "title": "header-button-circle-youtube-mobile.php"
+  },
+  {
+   "path": "template-components/header-button-circle-youtube.php",
+   "group": "template-components",
+   "title": "header-button-circle-youtube.php"
+  },
+  {
+   "path": "template-components/header-button-link-to-contact-mobile.php",
+   "group": "template-components",
+   "title": "header-button-link-to-contact-mobile.php"
+  },
+  {
+   "path": "template-components/header-button-link-to-contact.php",
+   "group": "template-components",
+   "title": "header-button-link-to-contact.php"
+  },
+  {
+   "path": "template-components/typewriter.php",
+   "group": "template-components",
+   "title": "typewriter.php"
+  },
+  {
+   "path": "template-customs/rank_math_the_breadcrumbs.php",
+   "group": "template-customs",
+   "title": "rank_math_the_breadcrumbs.php"
+  },
+  {
+   "path": "template-customs/wp_nav_menu.php",
+   "group": "template-customs",
+   "title": "wp_nav_menu.php"
+  },
+  {
+   "path": "template-customs/wp_nav_menu_home.php",
+   "group": "template-customs",
+   "title": "wp_nav_menu_home.php"
+  },
+  {
+   "path": "template-parts/loop-post-standard.php",
+   "group": "template-parts",
+   "title": "loop-post-standard.php"
+  },
+  {
+   "path": "template-parts/loop-product-swiper-banner.php",
+   "group": "template-parts",
+   "title": "loop-product-swiper-banner.php"
+  },
+  {
+   "path": "template-parts/loop-product-swiper.php",
+   "group": "template-parts",
+   "title": "loop-product-swiper.php"
+  },
+  {
+   "path": "templates/blog.php",
+   "group": "templates",
+   "title": "blog.php"
+  },
+  {
+   "path": "templates/cart.php",
+   "group": "templates",
+   "title": "cart.php"
+  },
+  {
+   "path": "templates/checkout.php",
+   "group": "templates",
+   "title": "checkout.php"
+  },
+  {
+   "path": "templates/contact.php",
+   "group": "templates",
+   "title": "contact.php"
+  },
+  {
+   "path": "templates/home.php",
+   "group": "templates",
+   "title": "home.php"
+  },
+  {
+   "path": "templates/interface_template.php",
+   "group": "templates",
+   "title": "interface_template.php"
+  },
+  {
+   "path": "templates/introduce.php",
+   "group": "templates",
+   "title": "introduce.php"
+  },
+  {
+   "path": "templates/logo_design.php",
+   "group": "templates",
+   "title": "logo_design.php"
+  },
+  {
+   "path": "templates/malware_removal_service.php",
+   "group": "templates",
+   "title": "malware_removal_service.php"
+  },
+  {
+   "path": "templates/my_account.php",
+   "group": "templates",
+   "title": "my_account.php"
+  },
+  {
+   "path": "templates/standard.php",
+   "group": "templates",
+   "title": "standard.php"
+  },
+  {
+   "path": "templates/website_design.php",
+   "group": "templates",
+   "title": "website_design.php"
+  },
+  {
+   "path": "woocommerce/archive-product.php",
+   "group": "woocommerce",
+   "title": "archive-product.php"
+  },
+  {
+   "path": "woocommerce/cart/cart-empty.php",
+   "group": "woocommerce",
+   "title": "cart/cart-empty.php"
+  },
+  {
+   "path": "woocommerce/cart/cart-item-data.php",
+   "group": "woocommerce",
+   "title": "cart/cart-item-data.php"
+  },
+  {
+   "path": "woocommerce/cart/cart-shipping.php",
+   "group": "woocommerce",
+   "title": "cart/cart-shipping.php"
+  },
+  {
+   "path": "woocommerce/cart/cart-totals.php",
+   "group": "woocommerce",
+   "title": "cart/cart-totals.php"
+  },
+  {
+   "path": "woocommerce/cart/cart.php",
+   "group": "woocommerce",
+   "title": "cart/cart.php"
+  },
+  {
+   "path": "woocommerce/cart/cross-sells.php",
+   "group": "woocommerce",
+   "title": "cart/cross-sells.php"
+  },
+  {
+   "path": "woocommerce/cart/mini-cart.php",
+   "group": "woocommerce",
+   "title": "cart/mini-cart.php"
+  },
+  {
+   "path": "woocommerce/cart/proceed-to-checkout-button.php",
+   "group": "woocommerce",
+   "title": "cart/proceed-to-checkout-button.php"
+  },
+  {
+   "path": "woocommerce/cart/shipping-calculator.php",
+   "group": "woocommerce",
+   "title": "cart/shipping-calculator.php"
+  },
+  {
+   "path": "woocommerce/content-product.php",
+   "group": "woocommerce",
+   "title": "content-product.php"
+  },
+  {
+   "path": "woocommerce/content-single-product.php",
+   "group": "woocommerce",
+   "title": "content-single-product.php"
+  },
+  {
+   "path": "woocommerce/global/breadcrumb.php",
+   "group": "woocommerce",
+   "title": "global/breadcrumb.php"
+  },
+  {
+   "path": "woocommerce/global/sidebar.php",
+   "group": "woocommerce",
+   "title": "global/sidebar.php"
+  },
+  {
+   "path": "woocommerce/global/wrapper-end.php",
+   "group": "woocommerce",
+   "title": "global/wrapper-end.php"
+  },
+  {
+   "path": "woocommerce/global/wrapper-start.php",
+   "group": "woocommerce",
+   "title": "global/wrapper-start.php"
+  },
+  {
+   "path": "woocommerce/inc/checkout.php",
+   "group": "woocommerce",
+   "title": "inc/checkout.php"
+  },
+  {
+   "path": "woocommerce/inc/shop.php",
+   "group": "woocommerce",
+   "title": "inc/shop.php"
+  },
+  {
+   "path": "woocommerce/inc/shop_detail.php",
+   "group": "woocommerce",
+   "title": "inc/shop_detail.php"
+  },
+  {
+   "path": "woocommerce/inc/sidebar.php",
+   "group": "woocommerce",
+   "title": "inc/sidebar.php"
+  },
+  {
+   "path": "woocommerce/loop/loop-end.php",
+   "group": "woocommerce",
+   "title": "loop/loop-end.php"
+  },
+  {
+   "path": "woocommerce/loop/loop-start.php",
+   "group": "woocommerce",
+   "title": "loop/loop-start.php"
+  },
+  {
+   "path": "woocommerce/single-product.php",
+   "group": "woocommerce",
+   "title": "single-product.php"
+  },
+  {
+   "path": "woocommerce/single-product/related.php",
+   "group": "woocommerce",
+   "title": "single-product/related.php"
+  }
+ ]
+}
