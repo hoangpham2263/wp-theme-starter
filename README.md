@@ -1,10 +1,10 @@
 # wp-theme-starter
 
-Theme khởi đầu cho custom theme WordPress (Vite, template-parts, WooCommerce templates).
+Starter for custom WordPress themes (Vite, template parts, WooCommerce templates).
 
-## Cài / dùng
+## Installation
 
-Tải file zip trong **Releases** → WordPress → Giao diện → Thêm mới → Tải giao diện lên.
+Download the zip file from **Releases** → WordPress → Appearance → Themes → Add New → Upload Theme.
 
 ---
 Phạm Quốc Hoàng · https://hoangpham.is-a.dev
